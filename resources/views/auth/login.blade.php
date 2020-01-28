@@ -39,9 +39,9 @@
 					<nav id="nav-menu-container">
 					<ul class="nav-menu">
 						<li class="menu-active"><a href="/">Home</a></li>
-					<!--	<li><a href="{{ url('gatos') }}">Info</a></li> 
+					<!--<li><a href="{{ url('gatos') }}">Info</a></li> 
 						<li><a href="{{ url('perros') }}">Fotos</a></li>-->
-						<li><a href="{{ url('contacto') }}">Contactanos</a></li>
+						<li><a href="{{ url('contacto') }}">Contac</a></li>
 						<li>
 						@if (Route::has('login'))
 								@auth
@@ -151,7 +151,8 @@
 							<h6>Nosotros</h6>
 							<p>
 		"Estamos firmemente comprometidos con brindar los servicios que mejor se adapten a nuestros clientes.
-		 Nosotros invertiremos en implementar las tecnologias que mejor se adapten aplicando las investigaciones de mercado para su empresa".
+		 Nosotros invertiremos en implementar las tecnologias que mejor
+		  se adapten aplicando las investigaciones de mercado para su empresa".
 							</p>
 						</div>
 		</div>
